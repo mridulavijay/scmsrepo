@@ -1,0 +1,12 @@
+.addproduct{
+    margin:auto;
+    width:40%;
+    margin-top: 10%;
+    
+}
+.container-fluid{
+    padding-top: 0.5%;
+    width:40%;
+    background-color: rgb(150, 229, 203);
+    padding-bottom: 5%;
+}
