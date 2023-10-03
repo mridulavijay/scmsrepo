@@ -1,31 +1,21 @@
 <div class="container">
-<table class="table table-striped table-responsive">
+<table class="table table-striped table-responsive table-dark">
     <thead>
       <tr>
         
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col">ID</th>
+        <th scope="col">ProductName</th>
+        <th scope="col">Product Price</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr *ngFor="let item of products">
      
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+        <td>{{item.id}}</td>
+        <td>{{item.productName}}</td>
+        <td>{{item.productPrice}}</td>
       </tr>
-      <tr>
-       
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-     
-        <td>Larry the Bird</td>
-        <td>@twitter</td>
-      </tr>
+      
     </tbody>
   </table>
 </div>
